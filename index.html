@@ -1,82 +1,79 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJECT.D</title>
-    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: Iceland, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #000000;
-            color: #ffffff;
-        }
-        header {
-            background: #000000;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            font-size: 25px;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        a {
-            color: #50b3a2;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0 auto;
-            padding: 0;
-            width: 200px;
-            background-color: #000000;
-            font-size: 30px;
-        }
-        nav li a {
-            display: block;
-            color: #ffffff;
-            padding: 12px 16px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav li a:hover {
-            background-color: #383838;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-    <header>
-        <h1>PROJECT.D</h1>
-        <p>«Неважно, кто наш противник, мы не отступим»</p>
+    <div class="wrapper">
+    <header class="container">
+        <span class="logo">project.D</span>
+        <nav>
+            <ul>
+                <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#">Участники</a></li>
+                <li><a href="#">Авто</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="btn"><a href="#">Home</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">История</a></li>
-            <li><a href="members.html">Участники</a></li>
-            <li><a href="#contact">Галерея</a></li>
-            <li><a href="#about">***</a></li>
-        </ul>
-    </nav>
-    <main>
-       
-    </main>
-    <footer>
-        &copy; 2025 PROJECT.D
-    </footer>
+
+    <div class="hero container">
+        <div class="hero--info">
+            <h2></h2>
+            <h1>Проект D</h1>
+            <p>Гоночная команда, созданная Рёскe Такахаши с целью привлечь лучших гонщиков префектуры Гумма (Такуми Фудживару и Кёске Такахаши) для участия в гонках в других префектурах.</p>
+        </div>
+        <img src="img/pjd.png" alt="" width="75%">
+    </div>
+    <div class="container members">
+        <h3>Участники</h3>
+        <div class="class memb">
+            <div class="block">
+                <img src="img/Reske.png" alt=""width="400" height="400">
+                <span>Рёске Такахаши</span>
+            </div>
+            <div class="block">
+                <img src="img/takumi.png" alt=""width="400" height="400">
+                <span>Такуми Фудживара</span>
+            </div>
+            <div class="block">
+                <img src="img/Keske.png" alt="" width="400" height="400">
+                <span>Кёске Такахаши</span>
+            </div>
+        </div>
+    </div>
+    <div class="container auto">
+        <h3>Автомобили</h3>
+        <div class="class trs">
+            <h2>Mazda SAVANNA RX-7 Infini III (FC3S)</h2>
+            <img src="img/savanna.gif" alt="">
+            <p>Mazda RX-7 — это спортивный автомобиль с передним/средним расположением двигателя, задним приводом и роторным двигателем, который производился и продавался компанией Mazda с 1978 по 2002 год в трёх поколениях. Во всех поколениях использовался компактный и лёгкий роторный двигатель Ванкеля. Второе поколение было известно как FC. Infini FC — это специальные версии FC с множеством усовершенствований, которые улучшали характеристики автомобиля. Infini III был выпущен в 1990 году.</p>
+            <p>Oдин из главных автомобилей в серии «Initial D». Он использовался Рёcкe Такахаши во время его пребывания в качестве Белой кометы Акаги, а затем в качестве лидера Akagi RedSuns, прежде чем он ушёл из гонок, чтобы возглавить Project D.</p> 
+         </div>
+
+         <div class="class trs">
+            <h2>Toyota Sprinter Trueno GT-APEX (AE86)</h2>
+            <img src="img/86.gif" alt="">
+            <p>Хэтчбек Toyota Sprinter Trueno GT-APEX AE86 — это 3-дверный вариант с самой высокой комплектацией из серии Toyota Sprinter Trueno E80. Он также известен под кодом шасси AE86 или просто как Eight-Six (Хати-Року), что также относится к другим моделям AE86.</p>
+            <p>Также известная как Белый призрак Акино, Панда Труено или просто Восемь-шесть (Хати-Року)</p> 
+         </div>
+
+         <div class="class trs">
+            <h2>Mazda RX-7 Type R (FD3S)</h2>
+            <img src="img/fd.gif" alt="">
+            <p>Mazda RX-7 Type R (FD3S), также известная как Mazda infini RX-7 Type R (FD3S) с 1991 по 1997 год, является частью третьего поколения Mazda RX-7. Её часто называют по коду шасси «FD3S» или просто FD.Его двигатель 13B-REW был первой серийной системой с последовательным двойным турбонаддувом, экспортированной из Японии.</p>
+         </div>
+    </div>
+    </div>
+    <div class="class features">
+        <div class="class container">
+            <h3>Буква «D» означает «Мечта».</h3>
+            <p>Проект D сильно отличается от других команд по гонкам на горных велосипедах. Он включает в себя высокотехничную программу тренировок и команду поддержки, состоящую из технических специалистов (большинство из которых — бывшие участники Akagi RedSuns). У каждого автомобиля есть свой механик (Шуичи Мацумото для AE86, Томигути для FD3S), а также другой вспомогательный персонал. Кента Накамура, единственный бывший участник RedSuns, кроме братьев Такахаси и Фумихиро, входит в состав вспомогательного персонала Project D. Он исследует и снимает трассу до прибытия команды, чтобы помочь гонщикам подготовиться.</p>
+        </div>
+    </div>
 </body>
 </html>
