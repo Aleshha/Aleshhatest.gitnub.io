@@ -23,6 +23,7 @@ img {
     background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(33, 33, 33, 1) 50%, rgba(0, 0, 0, 1) 100%);
 
     width: 100%;
+    
 }
 
 .container {
@@ -33,7 +34,8 @@ img {
 header {
     padding: 50px 0;
 }
-header .logo {
+header .logo,
+footer .blocks .logo {
     font-family: 'iceland', sans-serif;
     text-transform: uppercase;
     font-size: 35px;
@@ -149,6 +151,8 @@ header nav ul li.btn a:hover {
     font-size: 31px;
 }
 
+
+
 .members .memb {
     display: flex;
     justify-content: space-between;
@@ -161,6 +165,13 @@ header nav ul li.btn a:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.members .memb p {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 .auto {
     padding: 100px 0;
@@ -186,7 +197,7 @@ header nav ul li.btn a:hover {
 }
 
 .features {
-    background: url('img/fon.jpg') no-repeat center center fixed;
+    background: url('img/trs.gif') no-repeat center center fixed;
     background-size: cover;
     padding: 80px 0;
 }
@@ -206,3 +217,292 @@ header nav ul li.btn a:hover {
 .features h3 {
     font-size: 40px;
 }
+
+.track {
+    padding: 100px 0;
+}
+
+.track h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+
+.track .images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.project h3,
+.project p {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project h3 {
+    font-size: 30px;
+}
+
+.project {
+    background: url('img/font.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+
+/* teams*/
+
+
+.feat {
+    background: url('img/fight.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.feat h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-about {
+    position: relative;
+}
+
+.hero-about .info {
+    width: 500px;
+    padding: 150px 0;
+}
+
+.hero-about .info h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about img {
+    position: absolute;
+    right: -50px;
+    top: -10px;
+}
+
+.hero-about .akagi {
+    width: 500px;
+    padding: 150px 0;
+}
+
+.hero-about .akagi h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .kids {
+    width: 500px;
+    padding: 150px 0;
+}
+
+.hero-about .kids h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .Emperor {
+    width: 500px;
+    padding: 150px 0;
+}
+
+.hero-about .Emperor h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .Todo {
+    width: 500px;
+    padding: 150px 0;
+}
+
+.hero-about .Todo h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+/* cars*/
+
+.wrapper1 {
+    background: #000000;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.hero-cars {
+    position: relative;
+}
+
+.feats {
+    background: url('img/Kozo_vs_Keisuke_U_turn_1st_round.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.feats h2 {
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feats1 {
+    background: url('img/AE86_FasterClass.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 300px 0;
+    height: 100%;
+}
+
+.feats1 h2 {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 80px;
+    text-align: left;
+    max-width: 800px;
+    top: -100px;
+    display: block;
+    top: 300px;
+  
+}
+
+.feats2 {
+    background: url('img/SilEighty_Final_Stage.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 300px 0;
+    height: 100%;
+}
+
+.feats2 h2 {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 80px;
+    text-align: left;
+    max-width: 800px;
+    top: -100px;
+    display: block;
+    top: 300px;
+  
+}
+
+.feats3 {
+    background: url('img/Bunta_Impreza_Fourth_Stage.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 300px 0;
+    height: 100%;
+}
+
+.feats3 h2 {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 80px;
+    text-align: left;
+    max-width: 800px;
+    top: -100px;
+    display: block;
+    top: 300px;
+  
+}
+
+.feats4 {
+    background: url('img/Daiki_EK9_Fourth_Stage.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 300px 0;
+    height: 100%;
+}
+
+.feats4 h2 {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 80px;
+    text-align: left;
+    max-width: 800px;
+    top: -100px;
+    display: block;
+    top: 300px;
+  
+}
+
+/**/
+
+.aftor {
+    position: relative;
+    
+}
+
+.aftor h3 {
+    padding: 50px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aftor p {
+    padding: 40px;
+    font-weight: 100px;
+}
+
+.aftor img {
+    position: absolute;
+    width: 25%;
+    right: 0;
+    top: 100px;
+}
+
+/*footer */
+footer {
+    background: #000000;
+    padding: 50px 0;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks p {
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .blocks h4 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+footer hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0.8px;
+    background: #424242;
+}
+
+footer > p {
+    text-align: center;
+}
+
